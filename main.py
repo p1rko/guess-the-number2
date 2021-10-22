@@ -10,8 +10,9 @@ wrong_guesses = []
 with open("score_list.json", "r") as score_file:
     score_list = json.loads(score_file.read())
 
+new_score_list = sorted(score_list, key=lambda k: k['attempts'])[:3]
 
-for score_dict in score_list:
+for score_dict in new_score_list:
     print(str("User {0} took {1} attempts with the secret number {2} on {3} \nAll the wrong guesses: {4}".format(score_dict["name"], score_dict["attempts"], score_dict.get("secret"), score_dict.get("date"), score_dict["wrong_guesses"])))
 
 while True:
