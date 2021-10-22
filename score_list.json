@@ -1,1 +1,1 @@
-[{"name": "Masina", "attempts": 6, "secret": 13, "date": "2021-10-22 16:09:20.063435"}, {"name": "brokoli", "attempts": 6, "secret": 14, "date": "2021-10-22 16:10:53.333079"}]
+[{"name": "koleraba", "attempts": 4, "secret": 2, "date": "2021-10-22 16:20:48.981835", "wrong_guesses": [12, 6, 4]}, {"name": "banana", "attempts": 5, "secret": 15, "date": "2021-10-22 16:21:56.129790", "wrong_guesses": [9, 20, 17, 13]}, {"name": "pipa", "attempts": 7, "secret": 11, "date": "2021-10-22 16:22:48.112608", "wrong_guesses": [15, 13, 3, 9, 10, 12]}]
